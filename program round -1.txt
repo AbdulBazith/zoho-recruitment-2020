@@ -1,0 +1,20 @@
+Algorithm
+
+Step 1: get the input as 5 to print only five times
+Step 2:first loop over the first row to print 55555 (iterate it by checking 1-5)
+Step 3:  once it is printed 5 times it should move to next line by decrementing 1 and printing 54444
+
+Step 4: like wise loop over all the output
+
+Step 5: here point to be noted is second row 5 is printed once and third row 54 like this it going on
+
+Step 6 : while looping over it we need to check and based on the position we need to increament the values
+
+foreach (i=1 i<=5 i++)
+foreach(j=1 j<5 j++)
+if (i=j)
+print 5 \n
+else
+print 5 \t
+endforeach 
+endforeach
